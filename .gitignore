@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 project.Rproj
+#my additions
+_site/
+Gemfile.lock

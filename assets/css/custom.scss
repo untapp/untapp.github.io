@@ -1,4 +1,53 @@
----
----
-@charset "utf-8";
+--- --- @charset "utf-8";
 // Your custom css /scss here
+
+
+// Subtitle in index.md
+.swap-text {
+    display: inline;
+}
+
+.swap-text span {
+    position: absolute;
+    opacity: 0;
+    animation: swap 10s infinite;
+    padding-left: 8px;
+}
+
+.swap-text span:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.swap-text span:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.swap-text span:nth-child(4) {
+    animation-delay: 6s;
+}
+
+.swap-text span:nth-child(5) {
+    animation-delay: 8s;
+}
+
+@keyframes swap {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+}
