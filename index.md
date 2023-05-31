@@ -3,9 +3,9 @@ layout: minimal
 title: Transform your screens into interactive experiences
 header_type: splash
 header_img: ./assets/images/index_banner.jpg
-subtitle: For your <span
-    class="swap-text"><span>stores</span><span>restaurants</span><span>galleries</span><span>showrooms</span><span>digital
-        signage</span></span>
+subtitle: For your <span class="swap-text"><span>stores </span><span>restaurants </span><span>galleries
+    </span><span>showrooms </span><span>digital
+        signage </span></span>
 ---
 
 {% include components/headers.html headertype= page.header_type imghero=page.header_img projects=page.project_links %}
