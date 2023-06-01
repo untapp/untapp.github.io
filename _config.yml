@@ -48,7 +48,7 @@ search:
   provider              : lunr #Select a provider for enable search: lunr, algolia, google
   label                 :  #default ["Search"] Text on navbar when search is enabled 
   landing_page          :  #default ["/search"] Link on navbar 
-  lunr_maxwords         :  #default [30] lunr only - May slow down your site build
+  lunr_maxwords         :  10 #default [30] lunr only - May slow down your site build
   algolia_logo          :  false #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
 
 google_cse_id: #Your cse id
@@ -93,9 +93,10 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Untapp # Title in navbar
+    title   :  # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  "/assets/images/favicon.png" # An small image, try 30x30px
+    # img     :  "/assets/images/favicon.png" # An small image, try 30x30px
+    img     :  "/assets/images/untapp_navbar.png"
   nav:
   - title   : Home # Label
     url     : # url
