@@ -61,23 +61,33 @@
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
-  }
+}
 
-  /* Featurettes
+/* Featurettes
 ------------------------- */
 
 .featurette-divider {
-    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  @media (min-width: 40em) {
-  
-    .featurette-heading {
-      font-size: 50px;
-    }
-  }
+    margin: 2rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
 
-  
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+// navbar modifications for brnad logo
+.navbar .navbar-brand img {
+    width: 100px;
+    height: auto;
+}

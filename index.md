@@ -17,8 +17,7 @@ subtitle: For your <span class="swap-text"><span>stores </span><span>restaurants
         <p class="lead mb-4">Untapp's touchless interactive kits let you serve your customers quickly, safely,
             efficiently.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="/#Interested"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get
-                    Started</button></a>
+            <a href="/#Interested"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get in touch with us!</button></a>
         </div>
     </div>
 </div>
@@ -131,8 +130,7 @@ subtitle: For your <span class="swap-text"><span>stores </span><span>restaurants
             <p class="fs-5 mb-4">The Untapp Kit consists of a Player Unit and a simple RGB camera. It turns any
                 Television or monitor into an interactive screen, controllable by a user's hand gestures.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
-                <a href="/#Interested"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 fw-bold">Get
-                        Started</button></a>
+                <a href="/#Interested"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 fw-bold">Get in touch with us!</button></a>
             </div>
             <div class="overflow-hidden">
                 <div class="container px-5">
